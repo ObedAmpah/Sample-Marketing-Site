@@ -1,0 +1,1 @@
+$(document).foundation(),$(".off-canvas-list a").on("click.toggleCanvas",function(){$(".exit-off-canvas").click()});

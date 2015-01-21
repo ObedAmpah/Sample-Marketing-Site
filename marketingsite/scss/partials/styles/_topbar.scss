@@ -1,0 +1,36 @@
+//////////////////////
+// TOPBAR STYLINGS //
+////////////////////
+
+.top-bar {
+	
+	background-color: #c2c2c2;
+	z-index: 100;
+}
+
+.title-area img {
+	
+	position: fixed;
+	left: 0;
+	margin-left: 20px;
+	border: 1px solid #000000;
+	z-index: 100;
+	
+}
+
+
+// Foundation settings overrides
+
+// Background color for the top bar
+ $topbar-bg-color: rgba(245, 245, 245, 0.9);
+ $topbar-bg: $topbar-bg-color;
+
+
+// Style the top bar dropdown elements
+   $topbar-dropdown-bg: gray;
+
+// Set the link colors and styles for top-level nav
+   $topbar-link-color: #000000;
+
+// Transitions and breakpoint styles
+   $topbar-transition-speed: 300ms;

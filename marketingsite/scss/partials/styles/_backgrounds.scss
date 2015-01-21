@@ -1,0 +1,64 @@
+//////////////////////////////////
+// GENERAL BACKGROUND STYLING ///
+////////////////////////////////
+
+.content-container .content{
+	
+	padding: 20px 0;
+}
+
+.split-bg {
+	
+	position: relative;
+}
+
+.bg-container {
+	
+  @include mp-treble;
+  
+}
+
+p {
+	
+	line-height: 1.6;
+	font-size: 14px !important;
+	margin-bottom: 1.25rem;
+	text-rendering: optimizeLegibility;
+}
+
+////////////////////////////////
+// BACKGROUND IMAGE STYLING ///
+//////////////////////////////
+
+li.odd {
+	
+	
+	background-image: url("http://lookingatfrema.typepad.com/photos/uncategorized/nkotb_for_story.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	@include odd-treble;
+
+}
+
+.content-content .odd {
+	
+	margin-left: 50% !important;
+}
+
+li.even {
+	
+	
+	background-image: url("http://lookingatfrema.typepad.com/photos/uncategorized/nkotb_for_story.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	width: auto !important;
+	@include even-treble;
+		
+}
+
+.content-content .evens {
+	
+	margin-left: 50% !important;
+}

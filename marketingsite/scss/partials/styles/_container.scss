@@ -1,0 +1,24 @@
+/////////////////////////
+// CONTAINER STYLINGS //
+///////////////////////
+
+
+.zone {
+	
+	background-color: #ffffff;	
+}
+
+.box {
+
+	opacity: 0.5;
+    -webkit-transition: opacity .25s ease;
+	   -moz-transition: opacity .25s ease;
+		 -o-transition: opacity .25s ease;
+		 	transition: opacity .25s ease;
+		 	
+	&:hover {
+		
+		opacity: 1;
+	}
+	
+}

@@ -1,0 +1,52 @@
+//////////////////////
+// BODY STYLING //
+////////////////////
+
+* {
+	
+	box-sizing: border-box;
+}
+
+.clear {
+	
+	clear: both;
+}
+
+.padded-medium {
+	
+	padding: 1em;
+}
+
+.main-container {
+	
+	margin-top: 45px;
+}
+
+body {
+	
+	margin: 0 auto;
+	text-align: center;
+	list-style: none !important;
+	background-color: #F5F5F5 !important;
+
+}
+
+h4 {
+	
+	text-decoration: underline;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+li {
+	
+	list-style: none;
+}
+
+section {
+	
+	position: relative;
+	margin: 0;
+	clear: both;
+}
+
